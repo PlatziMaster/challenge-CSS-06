@@ -7,10 +7,10 @@ Flexbox: Dialogs
 La idea de este reto es que repliques el siguiente componente usando Flexbox. En Flexbox tenemos diferentes propiedades para los elementos padres y para los elementos hijos, por lo que la clave principal para resolver este reto es poder identificar qué elementos tenemos y que "rol" juegan, para así, identificar qué propiedades se le deben aplicar (recueda que hay hijos que también son padres).
 
 <kbd>
-<img src="https://i.ibb.co/BsH6Xb5/4.png" alt="componente para replicar" />
+<img width="500" src="https://i.ibb.co/BsH6Xb5/4.png" alt="componente para replicar" />
 </kbd>
 
-> [Fuente de la imagen | Material Design](https://material.io/components/app-bars-top)
+> [Fuente de la imagen | Material Design](https://material.io/components/dialogs)
 
 Te dejo la siguiente documentación útil para resolver el reto:
 
