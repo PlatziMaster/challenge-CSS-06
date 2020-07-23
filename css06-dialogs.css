@@ -1,0 +1,66 @@
+*{
+	padding:0 ;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.dialog {
+    display: flex;
+    width: 360px;
+	margin: 30px auto;
+	flex-direction: column;
+    border-bottom: 1px solid rgba(0 , 0, 0, 0.1);
+    box-shadow: 3px 3px 10px 2px rgba(0 , 0, 0, 0.1);
+}
+
+.dialog__h2 {
+    margin:20px 0 0  20px  ;
+}
+
+.dialog__p {
+	margin: 20px;
+}
+
+.dialog__error--nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.dialog__error--nav ul{
+	display: flex;
+	
+}
+
+.dialog__error--nav ul li{
+	list-style: none;
+	margin: 5px 20px 20px ;
+	text-transform: uppercase;	
+	padding: 5px 10px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.dialog__error--nav ul li:hover{
+	background-color: antiquewhite;
+	box-shadow: 0px 3px 10px 1px rgba(0 , 0, 0, 0.1);	
+}
+
+button{
+	width: 80px;
+	height: 40px;
+	background-color: antiquewhite;
+	border: none;
+	font-size: 1.1em;
+    transition: .5s;
+    cursor: pointer;
+}
+
+button:hover{
+	box-shadow: 0px 3px 10px 1px rgba(0 , 0, 0, 0.1);
+}
