@@ -1,0 +1,20 @@
+.products {
+ display: flex;
+ flex-wrap: wrap;
+}
+.products__card {
+    max-width: 240px;
+    min-width: 240px;
+    height: 300px;
+    overflow: hidden;
+    /* margin: 4px; */
+    padding: 4px;
+    flex: 1;
+   
+    
+}
+.products__card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

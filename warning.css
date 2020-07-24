@@ -1,0 +1,30 @@
+.warning {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid lightgray;
+    padding: 30px 50px;
+}
+.warning__title {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    
+}
+.warning__title h2 {
+    font-size: 16px;
+    font-weight: normal;
+    color: dimgray;
+    padding-bottom: 20px;
+}
+.warning__options {
+    display: flex;
+    justify-content: flex-end;
+}
+.warning__options a {
+    padding-right: 30px;
+    color: #6221ea;
+    text-decoration: none;
+}
+.warning__options a:hover {
+    text-decoration: underline;
+}
