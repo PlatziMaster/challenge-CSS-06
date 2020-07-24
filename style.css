@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    background-color: #000000;
+}
+
+.back {
+    margin: auto;
+    max-width: 500px;
+    width: 100%;
+}
+
+.background-image img {
+    width: 500px;
+    filter: brightness(50%);
+}
+
+.modal-content {
+    margin-top: -800px;
+    background-color: #ffffff;
+    position: relative;
+    display: block;
+    max-width: 400px;
+    width: 100%;
+    margin-left: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.75);
+}
+
+.modal-content__title {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.modal-content__title h2 {
+    font-weight: normal;
+    color: #404040;
+}
+
+.modal-content__text {
+    padding: 30px;
+}
+
+.modal-content__text p {
+    font-size: 20px;
+    color: #8C8C8C;
+    line-height: 28px;
+}
+
+.modal-content__links {
+    text-align: right;
+    padding: 30px;
+}
+
+.modal-content__links a {
+    padding: 0 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #6200EE;
+    font-size: 17px;
+}
