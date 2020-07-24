@@ -1,0 +1,73 @@
+.advice {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width:280px;
+    height: 200px;
+    padding: 30px 40px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: ;
+    justify-content: space-around;
+    color:dimgray;
+    -webkit-box-shadow: 10px 10px 48px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 48px -9px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 48px -9px rgba(0,0,0,0.75);
+    will-change: transform;
+    
+    
+}
+.advice__entry {
+    animation: adviceEnter 1s ease-in;
+}
+.advice__out {
+    animation: adviceOut 1s forwards;
+}
+.advice-title h2 {
+    font-weight: 50;
+}
+.advice-title p {
+    
+}
+.advice__otpions {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.advice__otpions a {
+    color: #6221ea;
+    padding-right: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.advice__otpions a:hover {
+    text-decoration: underline;
+}
+@keyframes adviceEnter {
+    0% {
+        opacity: 0;
+        transform: translateY(-300%);
+        
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@keyframes adviceOut {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+        
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-300%);
+    }
+}

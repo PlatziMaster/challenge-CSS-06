@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>reto 6</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="warning.css">
+        <link rel="stylesheet" href="products.css">
+        <link rel="stylesheet" href="advice.css">
+    </head>
+    <body>
+        
+        <header class="header">
+            <nav class="header__nav">
+                <div class="header__nav--left">
+                    <div class="ico-burguer">
+                        <a onclick="toogleMenu()" href="#"><img src="http://monsterbranding.com.mx/images/menu.png" alt="menu"> </a>
+                        <ul id="menuEscondido">
+                            <li><a href="#">inicio</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">contact</a></li>     
+                        </ul>
+                    </div>
+                    <h2>My pictures</h2>
+                </div>
+                <div class="header__nav--right">
+                    <ul>
+                        
+                        <li><a onclick="searchForm()" href="#"><img src="http://monsterbranding.com.mx/images/search.png" alt="search"></a>
+                            
+                        </li>
+                        <li><a href="#"><img src="http://monsterbranding.com.mx/images/menu-vertical.png" alt="secondary-menu"></a></li>
+                    </ul>
+                </div>
+            </nav> 
+        <div class="search" id="search">
+                <input type="search" placeholder="buscar..">
+                
+        </div>
+    </header>
+    <!-- advice -->
+    <section class="advice advice__entry" id="advice">
+        <div class="advice-title">
+            <h2>Use location service?</h2>
+            <p>Let us help apps determine location. this means sending
+                anonymous location data to us, even when no apps are
+                running.
+            </p>
+        </div>
+        <div class="advice__otpions">
+            <a onclick="adviceOut()"  href="#">DISAGREE</a>
+            <a onclick="adviceOut()"  href="#">AGREE</a>
+        </div>
+    </section>
+    <!-- //advice -->
+        <section class="warning">
+            <div class="warning__title"><h2>there was a problem procesing a transaction on your credit card</h2></div>
+            <div class="warning__options">
+                <a href="#"> FIX IT</a>
+                <a href="#">LEARN MORE</a></div>
+        </section>
+        <section class="products">
+            <section class="products__card">
+                <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?cs=srgb&dl=flat-lay-photography-of-vegetable-salad-on-plate-1640777.jpg&fm=jpg" alt="producto">
+            </section>
+            <section class="products__card">
+                <img src="https://images.pexels.com/photos/704569/pexels-photo-704569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="producto">
+            </section>
+            <section class="products__card">
+                <img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="producto">
+            </section>
+            <section class="products__card">
+                <img src="https://images.pexels.com/photos/1109197/pexels-photo-1109197.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="producto">
+            </section>
+            <section class="products__card">
+                <img src="https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="producto">
+            </section>
+            <section class="products__card">
+                <img src="https://images.pexels.com/photos/1580466/pexels-photo-1580466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="producto">
+            </section>
+            <section class="products__card">
+                <img src="https://images.pexels.com/photos/2641886/pexels-photo-2641886.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="producto">
+            </section>
+            <section class="products__card">
+                <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?cs=srgb&dl=flat-lay-photography-of-vegetable-salad-on-plate-1640777.jpg&fm=jpg" alt="producto">
+            </section>
+            <section class="products__card">
+                <img src="https://images.pexels.com/photos/704569/pexels-photo-704569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="producto">
+            </section>
+            <section class="products__card">
+                <img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="producto">
+            </section>
+            <section class="products__card">
+                <img src="https://images.pexels.com/photos/1109197/pexels-photo-1109197.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="producto">
+            </section>
+            <section class="products__card">
+                <img src="https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="producto">
+            </section>
+            <section class="products__card">
+                <img src="https://images.pexels.com/photos/1580466/pexels-photo-1580466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="producto">
+            </section>
+            <section class="products__card">
+                <img src="https://images.pexels.com/photos/2641886/pexels-photo-2641886.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="producto">
+            </section>
+        </section>
+        <script src="menu.js"></script>
+    </body>
+</html>
