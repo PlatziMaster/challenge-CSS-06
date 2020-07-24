@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Flexbox</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #c0c0c052;
+        }
+        .principal{
+            border: 1px solid #b7b7b7;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px  #818181;
+            width: 450px;
+            height: 320px;
+            margin-top: 150px;
+            margin-left: 450px;
+            background: white;
+        }
+        .prin_2{
+            margin: 70px;
+        }
+        .description{
+            margin-left: 70px;
+            margin-top: 20px;
+            font-size: 25px;
+            
+        }
+        .descriptions{
+            color: gray;
+        }
+        .tile{
+            font-size: 25px;
+        }
+        .section_footer{
+            display: flex;
+            margin-left: 200px;
+            
+        }
+        .button_1, .button_2{
+            padding-left: 20px;
+        }
+        .button_left, .button_right{
+            color: #6200EE;
+            border-style: none;
+            font-weight: bold;
+        }
+    
+        
+    </style>
+</head>
+<body>
+    <div class="principal">
+        <div class="prin_1">
+            <div class="description">
+            <p >Use location service?</p>
+            </div>
+        </div>
+        <div class="prin_2">
+            <div class="descriptions">
+                <p >Let us help determine location. This means sending anonymous
+                    location data to us, even when no apps are runnig. </p>
+            </div>
+        </div>
+        <section class="section_footer">
+                <div class="button_1">
+                    <button class="button_left">DISAGREE</button>
+                </div>
+                <div class="button_2">
+                    <button class="button_right">AGREE</button>
+                </div>
+        </section>
+       
+        
+    </div>
+    
+    
+</body>
+</html>
