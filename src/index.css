@@ -20,21 +20,77 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-    color: #212121;
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: gainsboro;
 }
-
-p {
-    color: #666666;
-}
-
-a {
-    color: #6c73ef;
-    text-transform: uppercase;
-}
-
-
-/*general styles*/
 
 
 /*small and medium mobiles*/
+
+.dialog {
+    background-color: white;
+    padding: 1rem;
+    margin: 2rem;
+    min-height: 20rem;
+    box-shadow: 1px 3px 3px gray;
+}
+
+.dialog h1 {
+    color: black;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.dialog p {
+    color: #666666;
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.both-a a {
+    color: #6c73ef;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.both-a {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+
+/*large mobiles*/
+
+@media screen and (min-width:425px) and (max-width:767px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+
+/*tablet*/
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+
+/*desktop*/
+
+@media screen and (min-width:1024px) and (max-width:1440px) {
+    html {
+        font-size: 25px;
+    }
+}
