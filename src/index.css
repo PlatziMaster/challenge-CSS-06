@@ -1,0 +1,96 @@
+/*google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*
+    google fonts uses
+    font-family: 'Roboto', sans-serif;
+*/
+
+
+/*general styles*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: gainsboro;
+}
+
+
+/*small and medium mobiles*/
+
+.dialog {
+    background-color: white;
+    padding: 1rem;
+    margin: 2rem;
+    min-height: 20rem;
+    box-shadow: 1px 3px 3px gray;
+}
+
+.dialog h1 {
+    color: black;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.dialog p {
+    color: #666666;
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.both-a a {
+    color: #6c73ef;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.both-a {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+
+/*large mobiles*/
+
+@media screen and (min-width:425px) and (max-width:767px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+
+/*tablet*/
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+
+/*desktop*/
+
+@media screen and (min-width:1024px) and (max-width:1440px) {
+    html {
+        font-size: 25px;
+    }
+}
