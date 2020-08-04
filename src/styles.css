@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  position: relative;
+}
+
+.card__1 {
+  height: 350px;
+  border: 1px solid rgb(187, 187, 187);
+  margin: 1rem;
+  color: grey;
+  border-radius: 9px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.card__1 img {
+  width: 100%;
+  height: 190px;
+}
+
+.card__1-content {
+  padding: 1rem;
+  line-height: 3rem;
+}
+
+.card__1 button {
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #0252ab;
+  font-size: 1rem;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.card__2 {
+  display: flex;
+  height: 200px;
+  border: 1px solid rgb(187, 187, 187);
+  margin: 1rem;
+  border-radius: 9px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.card__2 img {
+  width: 70px;
+  height: 70px;
+  margin: 1rem;
+  object-fit: cover;
+  border-radius: 50em;
+}
+
+.card__2-content {
+  margin-top: 1.4rem;
+}
+
+.card__2-content h4 {
+  font-weight: 200;
+  line-height: 25px;
+}
+
+.dialog__modal-container {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: auto;
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.dialog__modal {
+  width: 350px;
+  padding: 1.5rem;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  border: 0.5px solid grey;
+  border-radius: 8px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 23%;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.3);
+}
+
+.dialog__modal h1 {
+  font-size: 23px;
+  font-weight: 300;
+}
+
+.dialog__modal p {
+  color: grey;
+  font-size: 19px;
+  margin-top: 1rem;
+}
+
+.dialog__modal-content {
+  margin: 0.5rem;
+}
+
+.dialog__modal-buttons {
+  margin-top: 5.5rem;
+  align-self: flex-end;
+}
+
+.dialog__modal-buttons button {
+  font-size: 1.2rem;
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #2c006d;
+  cursor: pointer;
+}
