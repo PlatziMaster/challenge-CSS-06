@@ -1,0 +1,136 @@
+body {
+    background-image: url("https://wallpaperset.com/w/full/b/7/4/462755.jpg");
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .wrapperFuera {
+    display: table;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .wrapperDentro {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .dialogContainer {
+    width: 280px;
+    height: auto;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+
+  .dialogContent {
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding-top: 21px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .dialogContentTitulo {
+    background-color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: 0.03px;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .dialogContentBody {
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: 0.03px;
+    padding-top: 14px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .dialogActionBar {
+    width: auto;
+    height: 48px;
+    background-color: #ffffff;
+    text-align: right;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    padding-top: 0;
+    padding-left: 16px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .buttonFlat {
+    display: inline-block;
+    height: 36px;
+    background-color: rgba(9,9,9,0);
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(166, 33, 243, 0.9);
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    padding-top: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 0;
+    margin-top: 6px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 6px;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(68, 103, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+ }
