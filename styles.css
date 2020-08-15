@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Alata', sans-serif;
+    background: #fdc1b4;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 17%;
+    min-height: 25vh;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 2px 8px 16px rgba(93, 50, 66, 0.8);
+}
+
+h3 {
+    font-weight: 700;
+    color: #363636;
+}
+
+p {
+    color: #7b7b7b;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 32px;
+}
+
+button {
+    margin: 0px 0px 0px 16px;
+    border: none;
+    background-color: transparent;
+    color: #6302ee;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #ffd554;
+}
+
+a {
+    text-decoration: none;
+    color: #5d2a42;
+}
+
+a:hover {
+    color: #070306;
+}
+
+h5 {
+    margin: 24px;
+    font-weight: 400;
+}
