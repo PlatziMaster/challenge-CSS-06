@@ -1,6 +1,6 @@
 reto flexbox 06
 
-<!DOCTYPE html>
+<!DOCToYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -17,6 +17,7 @@ reto flexbox 06
                 width: 300px;
                 border-radius: 10px;
                 border: 1px solid black;
+		box-shadow: 0 0 10px;
             }
             h4 strong
             {
