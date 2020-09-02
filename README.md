@@ -1,3 +1,74 @@
+reto flexbox 06
+
+<!DOCToYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>flexboxRetos6</title>
+       <style>
+            .container
+            {
+                color:#abc0d4;
+                background-color:white;
+                display: flex;
+                flex-direction: column;
+                height: 235px;
+                width: 300px;
+                border-radius: 10px;
+                border: 1px solid black;
+		box-shadow: 0 0 10px;
+            }
+            h4 strong
+            {
+                color:#026fff;
+                margin: 40px;
+            }
+            h3
+            {
+                color:rgb(116,30,240);
+            }
+            .top
+            {
+                display: flex;
+                justify-content: flex-start;
+            }
+            .mid
+            {
+                display: flex;
+                justify-content: center;
+            }
+            .agreement
+            {
+                display: flex;
+                justify-content: space-around;
+            }
+       </style>
+    </head>
+ <body>
+    <div class="container">
+            <div class="top">
+                <h4>
+                    <strong>location service?</strong>
+                </h4>
+            </div>
+            <div class="mid">
+                <p>
+                    let us help apps determine <br>location. this means sending <br> anonymous location data to us, <br> even when no apps are running
+                </p>
+            </div>
+            <div class="agreement">
+                    <h3>
+                        Disagree
+                    </h3>
+                    <h3>
+                        Agree
+                    </h3>
+            </div>
+    </div>
+ </body>
+</html>
+
 # 🐸 Challenge CSS 06
 
 Flexbox: Dialogs
