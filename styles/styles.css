@@ -1,0 +1,41 @@
+.container {
+    width: 400px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: darkgray
+}
+.message {
+    width: 400px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+h2, p {
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+
+}
+.buttons {
+    width: 400px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 10px;
+
+    background-color: darkgray;
+}
+
+a {
+    text-decoration: none;
+    padding-right: 30px;
+    text-transform: uppercase
+}
