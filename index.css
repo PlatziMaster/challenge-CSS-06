@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+body {
+  height: 100vh;
+  background: url('https://cdn.wallpaperhub.app/cloudcache/2/0/3/e/6/a/203e6ab878d7f5290453d38ec752cb1f8f91f4ac.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 280px;
+  height: 200px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px #000;
+}
+
+.header h1 {
+  font-size: 1.1em;
+  font-weight: 100;
+  margin-bottom: 1em;
+}
+.header p {
+  color: grey;
+  font-size: 1.1em;
+  font-weight: 100;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.buttons a {
+  color: #7018ef;
+  text-transform: uppercase;
+  margin-left: 1em;
+  text-decoration: none;
+  font-weight: 600;
+}
