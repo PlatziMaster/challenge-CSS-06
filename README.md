@@ -3,7 +3,7 @@
 Flexbox: Dialogs
 
 ## 🏆 Challenge Done!
-- Deploy 🚀: Ve el proyecto en producciín [aquí](https://hectordevx.github.io/css-06__challenge/)
+- Deploy 🚀: Ve el proyecto en producción [aquí](https://hectordevx.github.io/css-06__challenge/)
 <kbd>
 <img width="800" src="/assets/screenshot.png" alt="Resultado Final">
 </kbd>
