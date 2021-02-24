@@ -2,6 +2,12 @@
 
 Flexbox: Dialogs
 
+## 🏆 Challenge Done!
+- Deploy 🚀: Ve el proyecto en producción [aquí](https://hectordevx.github.io/css-06__challenge/)
+<kbd>
+<img width="800" src="/assets/screenshot.png" alt="Resultado Final">
+</kbd>
+
 ## 🐸 ¿En qué consiste?
 
 La idea de este reto es que repliques el siguiente componente usando Flexbox. En Flexbox tenemos diferentes propiedades para los elementos padres y para los elementos hijos, por lo que la clave principal para resolver este reto es poder identificar qué elementos tenemos y que "rol" juegan, para así, identificar qué propiedades se le deben aplicar (recueda que hay hijos que también son padres).
@@ -14,10 +20,10 @@ La idea de este reto es que repliques el siguiente componente usando Flexbox. En
 
 Te dejo la siguiente documentación útil para resolver el reto:
 
-* [Flexbox Froggy | Juego](http://flexboxfroggy.com/#es)
-* [A guide to Flexbox | CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* [Flexbox in CSS | CSS Reference](https://cssreference.io/flexbox/)
-* [Flexbox help](https://flexbox.help/)
+- [Flexbox Froggy | Juego](http://flexboxfroggy.com/#es)
+- [A guide to Flexbox | CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Flexbox in CSS | CSS Reference](https://cssreference.io/flexbox/)
+- [Flexbox help](https://flexbox.help/)
 
 ## 🐸 Pasos a seguir:
 
