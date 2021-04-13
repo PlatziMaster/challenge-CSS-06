@@ -1,4 +1,4 @@
-# 🐸 Challenge CSS 06
+# 🐸 Challenge CSS 06 -- Reto completado
 
 Flexbox: Dialogs
 

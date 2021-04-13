@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+        font-size: 62.5%;
+        font-family: 'Alata', sans-serif;
+        scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 980px;
+    min-width: 320px;
+    width: 50%;
+    min-height: 25vh;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ff867a;
+    box-shadow: 2px 8px 16px rgba(93, 50, 66, 0.8);
+}
+
+.card__title {
+    font-size: 2.0rem;
+    font-weight: 700;
+    line-height: 3.0rem;
+    color: #363636;
+    padding-bottom: 20px;
+}
+
+.card p {
+    color: #7b7b7b;
+    font-size: 1.8rem;
+    line-height: 200%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 32px;
+}
+
+button {
+    margin: 0px 0px 0px 16px;
+    border: none;
+    background-color: transparent;
+    color: #6302ee;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #ffd554;
+}
