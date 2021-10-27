@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge-CSS-06</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .container {
+            width: 350px;
+            margin: 50px auto;
+            padding: 20px 30px;
+            /* border: 1px solid black; */
+            letter-spacing: 0.5px;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+
+        .container h3 {
+            opacity: 0.9;
+            font-weight: 500;
+        }
+
+        .container p {
+            opacity: 0.7;
+            font-weight: 500;
+            /* font-size: 0.9rem; */
+            letter-spacing: normal;
+            line-height: 1.4;
+            margin: 30px 0 60px 0;
+        }
+
+        .container-btns{
+            display: flex;
+            justify-content: flex-end;
+            gap: 20px;
+        }
+
+        .container-btns button {
+            border: none;
+            background-color: transparent;
+            text-transform: uppercase;
+            color: blueviolet;
+            font-weight: bold;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        
+        .container-btns button:hover {
+            color: rgba(137, 43, 226, 0.582);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Use location service?</h3>
+        <p>Let us help apps determine location. This means sending anonymous location data to us, even when no apps are running. </p>
+        <div class="container-btns">
+            <button>disagree</button><button>Agree</button>
+        </div>
+    </div>
+</body>
+
+</html>
